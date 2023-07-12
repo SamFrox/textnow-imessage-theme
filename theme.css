@@ -1,0 +1,83 @@
+/* ==UserStyle==
+@name           www.textnow.com - 7/5/2023, 12:35:27 PM
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    A new userstyle
+@author         Me
+==/UserStyle== */
+@-moz-document url-prefix("https://www.textnow.com/messaging") {
+    /* Insert code here... */
+    :root {
+        --send-bg: #0B93F6;
+        --send-color: white;
+        --receive-bg: #E5E5EA;
+        --receive-text: black;
+        --page-background: white;
+    }
+
+    .uikit-chat-item vertical-container shouldAnimate {
+        color: black
+    }
+
+    /* text history top bar (sender) */
+    .conv-header-container {
+        background-color: #2f2f2f;
+    }
+
+
+    .conversation-title__name {
+        color: white
+    }
+
+    /* text history */
+    .chat-list {
+        background-color: #1c1c1c;
+    }
+
+    /* text history too */
+    .middle section {
+        background-color: #1c1c1c;
+    }
+
+    /* text history also */
+    .messages {
+        background-color: #1c1c1c;
+    }
+
+    /* text box */
+    /* broken */
+    .view-with-fixed-footer-view__footer-view {
+        background-color: #1c1c1c;
+    }
+
+    /* top of the sidebar */
+    .chat-preview-wrapper uikit-chatlist section {
+        background-color: #e80d0d;
+        color:
+    }
+
+    .message-item.uikit-chat-item__bubble.uikit-chat-item__bubble--outgoing {
+        max-width: 255px;
+        word-wrap: break-word;
+        background-color: #1680fb;
+    }
+
+    .message-item.uikit-chat-item__bubble.uikit-chat-item__bubble--incoming {
+        max-width: 255px;
+        word-wrap: break-word;
+        background-color: #2f2f2f;
+    }
+
+    .uikit-chat-item__bubble-text {
+        color: white;
+    }
+
+    .message-sender {
+        color: white;
+    }
+
+    /* message timestamp */
+    .uikit-chat-item__timestamp uikit-chat-item__timestamp--message {
+        color: white
+    }
+}
